@@ -1,0 +1,21 @@
+{
+    "name": "ilyatau/yii2-openroute-service",
+    "description": "Yii2 extension for openroute service api https://openrouteservice.org",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","openroute","map api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Lifshitz",
+            "email": "ilya.tau@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ilyatau\\yii2_openroute_service\\": ""
+        }
+    }
+}
