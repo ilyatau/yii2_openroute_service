@@ -27,7 +27,7 @@ class Coordinate
 
     public function __toString() : string
     {
-       return $this->latitude+','+$this->latitude;
+       return (string)$this->latitude+','+(string)$this->latitude;
     }
 
 
