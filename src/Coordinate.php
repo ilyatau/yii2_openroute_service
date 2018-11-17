@@ -25,5 +25,10 @@ class Coordinate
         $this->longitude = $longitude;
     }
 
+    public function __toString() : string
+    {
+       return $this->latitude+','+$this->latitude;
+    }
+
 
 }
